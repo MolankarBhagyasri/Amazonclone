@@ -73,7 +73,24 @@ const products = [
       "https://images-na.ssl-images-amazon.com/images/I/71FHcGAPevL._SL1498_.jpg",
   },
   {
-    id: "5",
+  id: "5",
+    title:
+      "Amazon Brand - Symbol Analog Women's Watch",
+    price: 11,
+    rating: 4,
+    specification: [
+      "Dial Color: Pink , Case Shape: Round ,Dial Glass Material: Mineral",
+      "Band Color: PInk , Band Material: PU",
+      "Watch Movement Type:Quartz, Watch Display Type: Analog",
+      "Case Material: Alloy IP, Case Diameter: 32 , Stainless Steel Bezel",
+      "1 Year Manufacturer Warranty",
+    ],
+    detail: "SHENGKE Women Watches Leather Band Amazon.com:Women Watches Leather Band NAVIFORCE Womens Fashion Watches Bracelet Tungsten Steel Dress Watches ...",
+      image:"https://img5.gadgetsnow.com/gd/images/products/additional/original/G183913_View_1/watches/men-watches/seven-business-quartz-watches-watches-for-women-girl-fashion-casual-analogue-quartz-luxury-wrist-watch-for-mother-women-watch-ladies-watch-girlfriend-gift-watches-for-girls.jpg"
+      
+  },
+  {
+    id: "6",
     title: "crocs Unisex-Adult Bayaband Clog",
     price: 23,
     rating: 4,

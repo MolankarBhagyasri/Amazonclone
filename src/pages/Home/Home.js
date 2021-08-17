@@ -21,10 +21,10 @@ const Home = () => {
             </div>
             <div className="home">
                 <div className="home-container">
-                  <Slider images={bannerImages}/>
+                <Slider images={bannerImages}/>
                     <div className="home-row">
-                       {products.slice(0,2).map( (item)=>(
-                           <Product
+                    {products.slice(0,2).map( (item)=>(
+                        <Product
                             id={item.id}
                             title={item.title}
                             price={item.price}
@@ -32,12 +32,12 @@ const Home = () => {
                             image={item.image}
                             specification ={item.specification}
                             detail={item.detail}
-                           />
-                       ))}
+                        />
+                    ))}
                     </div>
                     <div className="home-row">
-                       {products.slice(2,5).map( (item)=>(
-                           <Product
+                    {products.slice(2,5).map( (item)=>(
+                        <Product
                             id={item.id}
                             title={item.title}
                             price={item.price}
@@ -45,12 +45,12 @@ const Home = () => {
                             image={item.image}
                             specification ={item.specification}
                             detail={item.detail}
-                           />
-                       ))}
+                        />
+                    ))}
                     </div>
                     <div className="home-row">
-                       {products.slice(5,6).map( (item)=>(
-                           <Product
+                    {products.slice(5,6).map( (item)=>(
+                        <Product
                             id={item.id}
                             title={item.title}
                             price={item.price}
@@ -58,11 +58,12 @@ const Home = () => {
                             image={item.image}
                             specification ={item.specification}
                             detail={item.detail}
-                           />
-                       ))}
+                        />
+                    ))}
                     </div>
                     
-                    <div style={{ marginTop: "40px" }}> <BackToTop/> </div>
+                    <div style={{ marginTop: "40px" }}>
+                        <BackToTop /> </div>
                 </div>
 
             </div>
