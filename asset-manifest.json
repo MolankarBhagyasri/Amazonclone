@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Amazonclone/static/css/main.c1629bda.chunk.css",
+    "main.js": "/Amazonclone/static/js/main.cc6059c8.chunk.js",
+    "main.js.map": "/Amazonclone/static/js/main.cc6059c8.chunk.js.map",
+    "runtime-main.js": "/Amazonclone/static/js/runtime-main.513b54bb.js",
+    "runtime-main.js.map": "/Amazonclone/static/js/runtime-main.513b54bb.js.map",
+    "static/js/2.4a52fae1.chunk.js": "/Amazonclone/static/js/2.4a52fae1.chunk.js",
+    "static/js/2.4a52fae1.chunk.js.map": "/Amazonclone/static/js/2.4a52fae1.chunk.js.map",
+    "index.html": "/Amazonclone/index.html",
+    "static/css/main.c1629bda.chunk.css.map": "/Amazonclone/static/css/main.c1629bda.chunk.css.map",
+    "static/js/2.4a52fae1.chunk.js.LICENSE.txt": "/Amazonclone/static/js/2.4a52fae1.chunk.js.LICENSE.txt",
+    "static/media/Amazon_Logo.19e5df3e.png": "/Amazonclone/static/media/Amazon_Logo.19e5df3e.png",
+    "static/media/Banner1.b35cf70d.jpg": "/Amazonclone/static/media/Banner1.b35cf70d.jpg",
+    "static/media/Banner2.d35c8837.jpg": "/Amazonclone/static/media/Banner2.d35c8837.jpg",
+    "static/media/Banner3.0acaccd8.jpg": "/Amazonclone/static/media/Banner3.0acaccd8.jpg",
+    "static/media/Banner4.c2f98254.jpg": "/Amazonclone/static/media/Banner4.c2f98254.jpg",
+    "static/media/Banner5.4aa74f4c.jpg": "/Amazonclone/static/media/Banner5.4aa74f4c.jpg",
+    "static/media/Banner6.ee0b94f6.jpg": "/Amazonclone/static/media/Banner6.ee0b94f6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.513b54bb.js",
+    "static/js/2.4a52fae1.chunk.js",
+    "static/css/main.c1629bda.chunk.css",
+    "static/js/main.cc6059c8.chunk.js"
+  ]
+}
