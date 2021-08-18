@@ -6,7 +6,7 @@
     display: flex;
   } 
 
-   .item-container {
+  .item-container {
     display: flex;
     color: white;
     background-color: #2b2727
@@ -17,7 +17,6 @@
     font-size: 14px;
     font-family: Arial, sans-serif;
   }
-  
   .home-row {
     display: flex;
     z-index: 1;

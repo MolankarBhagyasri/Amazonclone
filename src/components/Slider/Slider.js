@@ -7,9 +7,7 @@ import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 
 
 const Slider = ({images}) => {
-
     const [index, setIndex] = useState(0);
-
     useEffect(() => {
         const lastIndex = images.length - 1;
         if (index < 0) {
@@ -29,11 +27,9 @@ const Slider = ({images}) => {
             clearInterval(slider)
         }
     }, [index]);
-
     return (
         <div className="section">
             <div className="section-center">
-
                 {images.map((image, indexImage) => {
                     let position = "nextSlide";
                     if (indexImage === index) {
@@ -49,14 +45,11 @@ const Slider = ({images}) => {
                     )
                     
                 })}
-
                 <p className="prev" onClick={() => setIndex(index - 1)}>
                     <ArrowBackIosIcon />
-
                 </p>
                 <p className="next" onClick={() => setIndex(index + 1)}>
                     <ArrowForwardIosIcon />
-
                 </p>
             </div>
         </div>

@@ -3,7 +3,7 @@ import "./Product.css";
 import { Link } from "react-router-dom";
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import { useDispatch } from "react-redux";
-import { addToBasket } from '/redux/actions';
+import { addToBasket } from '../../redux/actions';
 
 const Product = ({ id, title, image, price, rating, specification, detail }) => {
     console.log(id)
@@ -21,9 +21,8 @@ const Product = ({ id, title, image, price, rating, specification, detail }) => 
             console.log(item.id)
             dispatch(addToBasket(item));
         };
-    return (
-        <div>
-            <div className="product">
+        return (
+        <div className="product">
                 <div className="info">
                     <Link to={`/product/${id}`} className="title">
                         <p>{title}</p>
@@ -46,7 +45,6 @@ const Product = ({ id, title, image, price, rating, specification, detail }) => 
                         Add To Basket
                     </button>
             </div>
-        </div>
     );
 };
 

@@ -49,7 +49,20 @@ const Home = () => {
                     ))}
                     </div>
                     <div className="home-row">
-                    {products.slice(5,6).map( (item)=>(
+                    {products.slice(5,7).map( (item)=>(
+                        <Product
+                            id={item.id}
+                            title={item.title}
+                            price={item.price}
+                            rating={item.rating}
+                            image={item.image}
+                            specification ={item.specification}
+                            detail={item.detail}
+                        />
+                    ))}
+                        </div>
+                        <div className="home-row">
+                    {products.slice(6,0).map( (item)=>(
                         <Product
                             id={item.id}
                             title={item.title}

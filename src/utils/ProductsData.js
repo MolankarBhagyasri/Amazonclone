@@ -38,7 +38,7 @@ const products = [
   },
   {
     id: "3",
-    title: "Lenovo Tab M10 HD 2nd Gen (10.1 inch, 4 GB, 64 GB, Wi-Fi+LTE)",
+    title: "Lenovo Tab M10 HD 2nd Gen (10.1 inch,64GB)", 
     price: 11,
     rating: 4,
     specification: [
@@ -57,10 +57,10 @@ const products = [
     id: "4",
     title:
       "HP Pavilion Gaming 10th Gen Intel Core i5 Processor 16.1 (40.9 cms) FHD Gaming Laptop",
-    price: 11,
-    rating: 4,
-    specification: [
-      "2.5GHz Intel i5-10300H 10th Gen processor",
+      price: 11,
+      rating: 4,
+      specification: [
+      "2.5GHz Intel 10th Gen processor",
       "8GB DDR4 RAM",
       "1TB 7200rpm hard drive + 256GB SSD",
       "16-inch screen, NVIDIA GeForce GTX 1650 4GB Graphics",
@@ -74,8 +74,7 @@ const products = [
   },
   {
   id: "5",
-    title:
-      "Amazon Brand - Symbol Analog Women's Watch",
+    title:"Amazon Brand-Symbol Analog Women's Watch",
     price: 11,
     rating: 4,
     specification: [
@@ -91,6 +90,20 @@ const products = [
   },
   {
     id: "6",
+    title: "16 UNIQUE AND TRENDY INDO WESTERN DRESSES FOR GIRLS ",
+    price: 23,
+    rating: 4,
+    specification: [
+      "Material:silk",
+      "Pattern:Western",
+      "Type of Work :simple White",
+      "Type:Kurthi",
+    ],
+    detail: "This white printed dress by PINKVILLE JAIPUR is crafted in cotton with brown bow detailing.Perfect for a summer brunch look, pair it with bellies and a sling bag for a cute attire.",
+    image:"http://www.fashionfoody.com/wp-content/uploads/2018/03/Asymmetric-hemline-Kurtis.jpg",
+  },
+  {
+    id: "7",
     title: "crocs Unisex-Adult Bayaband Clog",
     price: 23,
     rating: 4,
@@ -109,7 +122,7 @@ const products = [
       "https://images-na.ssl-images-amazon.com/images/I/712Brp0hwfL._UL1500_.jpg",
   },
   {
-    id: "1234",
+    id: "8",
     title:
       "LG 27 inch 4K-UHD (3840 x 2160) HDR 10 Monitor (Gaming & Design) with IPS Panel",
     price: 11,

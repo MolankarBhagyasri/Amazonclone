@@ -14,11 +14,14 @@
       opacity: 1;
     }
   }
-  .back-top-container {
+.back-top-container {
     height: 40px;
     text-align: center;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 1470px;
     background-color: #37475a;
-    color:black;
+    color:aliceblue;
+    align-items: center;
     margin-right: 15px;
   }
